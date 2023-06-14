@@ -11,10 +11,22 @@
     margin: 10px;
 }
 .task__button--done{
-    background-color: green;
+    background-color: hsl(120, 100%, 25%);
+}
+.task__button--done:hover{
+    background-color: hsl(120, 100%, 30%);
+}
+.task__button--done:active{
+    background-color: hsl(120, 100%, 35%);
 }
 .task__button--remove{
     background-color: red;
+}
+.task__button--remove:hover{
+    background-color: hsl(0, 100%, 55%);
+}
+.task__button--remove:active{
+    background-color: hsl(0, 100%, 60%);
 }
 .task{
     display: grid;

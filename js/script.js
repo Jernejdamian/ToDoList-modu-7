@@ -8,22 +8,22 @@
         },
     ];
 
-    const toggleDoneButton=(index) => {
+    const toggleDoneButton = (index) => {
         tasks[index].done = !tasks[index].done;
         render();
     };
 
-    const deletedButton=(index)=>{
+    const deletedButton = (index) => {
         tasks.splice(index, 1);
-                render();
+        render();
     };
 
-    const bindEvents=()=>{
+    const bindEvents = () => {
         const doneButtons = document.querySelectorAll(".js-done");
         const removeButtons = document.querySelectorAll(".js-remove");
 
         doneButtons.forEach((doneButton, index) => {
-            doneButton.addEventListener("click",()=>{
+            doneButton.addEventListener("click", () => {
                 toggleDoneButton(index);
             });
         });
@@ -41,10 +41,10 @@
 
         for (const task of tasks) {
             htmlString += `
-            <li ${task.done ? "style=\"text-decoration:line-through\"" : ""}>
-            <button class="js-done" >Zrobione?</button>
-            ${task.content}
-            <button class="js-remove">Usuń</button>
+            <li class="task">
+            <button class="task__button task__button--done js-done">${task.done ? "✔️" : ""}</button>
+            <span class="task__content ${task.done ? "task__content--done" : ""}">${task.content}</span>
+            <button class="task__button task__button--remove js-remove">🗑</button>
             </li>`;
         }
 

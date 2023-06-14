@@ -1,0 +1,32 @@
+.tasks{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; 
+}
+.task__button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: white;
+    margin: 10px;
+}
+.task__button--done{
+    background-color: green;
+}
+.task__button--remove{
+    background-color: red;
+}
+.task{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    
+}
+.task__content{
+    text-transform: capitalize;
+}
+.task__content--done{
+    text-decoration:line-through;
+}

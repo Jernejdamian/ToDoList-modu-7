@@ -8,21 +8,26 @@
     <title>ToDoList</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/tasks.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <main class="container">
         <h1>Lista zadań</h1>
         <section class="section">
-            <h2>Dodaj nowe zadanie</h2>
+            <h2 class="section__header">Dodaj nowe zadanie</h2>
             <form class="form js-form">
-                <input class="js-newTask">
-                <button>Dodaj zadanie</button>
+                <input class="js-newTask" placeholder="Co jest do zrobienia?">
+                <button class="form__button">Dodaj zadanie</button>
             </form>
         </section>
         <section class="section">
-            <ul class="js-newTasks"></ul>
+            <h2 class="section__header">Lista zadań</h2>
+            <ul class="tasks js-newTasks"></ul>
         </section>
     </main>
 

@@ -1,10 +1,9 @@
 # ToDoList-modu-7
 # Demo
 https://jernejdamian.github.io/ToDoList-modu-7/
-![Gif-todo-list](https://github.com/Jernejdamian/ToDoList-modu-7/assets/108942033/c190a0b9-fa3c-4f99-9460-31329a926e96)
-
 # Description
 An application provides makind a to-do list. You also can mark and cross done tasks.
+![Gif-todo-list](https://github.com/Jernejdamian/ToDoList-modu-7/assets/108942033/c190a0b9-fa3c-4f99-9460-31329a926e96)
 # INSTRUCTION. How to use an application?
 How to add a task?
 To add a task you need to fill in a form with a task and click a button on the right or at the bottom if you use it on telephone?

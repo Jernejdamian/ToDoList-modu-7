@@ -12,6 +12,7 @@ To remove a task you need to click a red button on the right side of the task?
 How to mark that the task is done?
 To mark that the task is done you need to click a green button on the left side of the task and then it will change to check mark?
 # Technologies
+- HTML and CSS
 - Google Fonts
 - Normalize CSS
 - BEM convention

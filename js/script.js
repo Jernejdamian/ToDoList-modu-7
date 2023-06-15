@@ -81,8 +81,8 @@
             return;
         }
         buttonElement.innerHTML = `
-        <button class="section__body--button js-toggleHideDoneButton">${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button>
-        <button class="section__body--button js-markAllDone"${tasks.every(({ done }) => done) ? "disabled" : ""}>Ukończ wszytskie</button>`
+        <button class="section__header--button js-toggleHideDoneButton">${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button>
+        <button class="section__header--button js-markAllDone"${tasks.every(({ done }) => done) ? "disabled" : ""}>Ukończ wszytskie</button>`
     };
 
     const bindEventsButtons = () => {

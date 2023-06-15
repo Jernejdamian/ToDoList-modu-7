@@ -6,21 +6,20 @@
 .section__header{
     padding: 10px;
     margin: 10px;
-    -bottom: 2px solid #eee;
-}
-.section__body{
+    border-bottom: 2px solid #eee;
     display: grid;
     grid-template-columns: 1fr auto auto;
     align-items: center;
+    border-bottom: 2px solid #eee;
 }
-.section__body--button{
+.section__header--button{
     border: none;
     background-color: white;
     color: teal;
 }
-.section__body--button:disabled{
+.section__header--button:disabled{
     color: #b3b3b3;
 }
-.section__body--button:hover{
+.section__header--button:hover{
     color: hsl(180, 100%,35%);
 }

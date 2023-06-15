@@ -12,6 +12,11 @@
     align-items: center;
     border-bottom: 2px solid #eee;
 }
+@media(max-width:767px){
+    .section__header{
+        grid-template-columns: 1fr;
+    }
+}
 .section__header--button{
     border: none;
     background-color: white;
@@ -22,4 +27,13 @@
 }
 .section__header--button:hover{
     color: hsl(180, 100%,35%);
+}
+.section__buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media(max-width:767px){
+    .section__buttons{
+        grid-template-columns: 1fr;
+    }
 }

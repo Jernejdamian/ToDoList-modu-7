@@ -6,5 +6,21 @@
 .section__header{
     padding: 10px;
     margin: 10px;
-    border-bottom: 2px solid #eee;
+    -bottom: 2px solid #eee;
+}
+.section__body{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+}
+.section__body--button{
+    border: none;
+    background-color: white;
+    color: teal;
+}
+.section__body--button:disabled{
+    color: #b3b3b3;
+}
+.section__body--button:hover{
+    color: hsl(180, 100%,35%);
 }

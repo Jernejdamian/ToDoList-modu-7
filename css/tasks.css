@@ -9,6 +9,7 @@
     border: none;
     color: white;
     margin: 10px;
+    transition: 1s;
 }
 .task__button--done{
     background-color: hsl(120, 100%, 25%);

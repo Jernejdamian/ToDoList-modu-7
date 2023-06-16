@@ -21,6 +21,7 @@
     border: none;
     background-color: white;
     color: teal;
+    transition: 1s;
 }
 .section__header--button:disabled{
     color: #b3b3b3;
